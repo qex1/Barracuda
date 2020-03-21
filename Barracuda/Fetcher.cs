@@ -62,7 +62,7 @@ namespace Barracuda
             }
         }
 
-        public double T1(int a, int b)
+        public double T1(int a, int b)  //car calculating
         {
             if (CarCacher.CheckPair(_coord[a], _coord[b]))
             {
@@ -76,7 +76,7 @@ namespace Barracuda
             }
         }
 
-        public double T2(int a, int b)
+        public double T2(int a, int b)  //dron calculating
         {
             if (DronCacher.CheckPair(_coord[a], _coord[b]))
             {

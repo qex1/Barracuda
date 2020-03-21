@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff481c00-de2e-4633-bfb2-e16a2b1bee5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Barracuda/BaseJSON.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Barracuda/Fetcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Barracuda/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Barracuda/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Barracuda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Barracuda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Barracuda/Cacher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Barracuda/Cacher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Barracuda/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Barracuda/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +26,8 @@
         <option value="$PROJECT_DIR$/Barracuda/coord.cs" />
         <option value="$PROJECT_DIR$/Barracuda/Coord.cs" />
         <option value="$PROJECT_DIR$/Barracuda/Cacher.cs" />
-        <option value="$PROJECT_DIR$/Barracuda/Program.cs" />
         <option value="$PROJECT_DIR$/Barracuda/BaseJSON.cs" />
+        <option value="$PROJECT_DIR$/Barracuda/Program.cs" />
         <option value="$PROJECT_DIR$/Barracuda/Fetcher.cs" />
       </list>
     </option>
@@ -90,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584717771077</updated>
       <workItem from="1584717789751" duration="3041000" />
-      <workItem from="1584790843279" duration="3197000" />
+      <workItem from="1584790843279" duration="3703000" />
+      <workItem from="1584804581330" duration="434000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1584718082356</created>
@@ -106,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584721223248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished base">
+      <created>1584794897314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584794897314</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,25 +134,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added Cacher.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Cacher.cs" />
+    <MESSAGE value="Finished base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished base" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="937" height="275" key="GridCell.Tab.0.bottom" timestamp="1584794530817">
+    <state width="937" height="275" key="GridCell.Tab.0.bottom" timestamp="1584805098298">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="937" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1043@0.0.1920.1043" timestamp="1584794530817" />
-    <state width="937" height="275" key="GridCell.Tab.0.center" timestamp="1584794530816">
+    <state width="937" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1043@0.0.1920.1043" timestamp="1584805098298" />
+    <state width="937" height="275" key="GridCell.Tab.0.center" timestamp="1584805098297">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="937" height="275" key="GridCell.Tab.0.center/0.0.1920.1043@0.0.1920.1043" timestamp="1584794530816" />
-    <state width="937" height="275" key="GridCell.Tab.0.left" timestamp="1584794530816">
+    <state width="937" height="275" key="GridCell.Tab.0.center/0.0.1920.1043@0.0.1920.1043" timestamp="1584805098297" />
+    <state width="937" height="275" key="GridCell.Tab.0.left" timestamp="1584805098297">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="937" height="275" key="GridCell.Tab.0.left/0.0.1920.1043@0.0.1920.1043" timestamp="1584794530816" />
-    <state width="937" height="275" key="GridCell.Tab.0.right" timestamp="1584794530816">
+    <state width="937" height="275" key="GridCell.Tab.0.left/0.0.1920.1043@0.0.1920.1043" timestamp="1584805098297" />
+    <state width="937" height="275" key="GridCell.Tab.0.right" timestamp="1584805098297">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="937" height="275" key="GridCell.Tab.0.right/0.0.1920.1043@0.0.1920.1043" timestamp="1584794530816" />
+    <state width="937" height="275" key="GridCell.Tab.0.right/0.0.1920.1043@0.0.1920.1043" timestamp="1584805098297" />
     <state x="456" y="157" key="SettingsEditor" timestamp="1584717914472">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
