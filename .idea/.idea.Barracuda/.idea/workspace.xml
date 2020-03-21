@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff481c00-de2e-4633-bfb2-e16a2b1bee5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Barracuda/Cacher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Barracuda/Coord.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Barracuda/BaseJSON.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Barracuda/Fetcher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Barracuda/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Barracuda/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Barracuda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Barracuda/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Barracuda/Cacher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Barracuda/Cacher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Barracuda/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Barracuda/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,30 +18,39 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Barracuda/BaseJSON.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Barracuda/Cacher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Barracuda/Coord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Barracuda/Fetcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Barracuda/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Barracuda/coord.cs" />
-        <option value="$PROJECT_DIR$/Barracuda/Cacher.cs" />
         <option value="$PROJECT_DIR$/Barracuda/Coord.cs" />
+        <option value="$PROJECT_DIR$/Barracuda/Cacher.cs" />
         <option value="$PROJECT_DIR$/Barracuda/Program.cs" />
+        <option value="$PROJECT_DIR$/Barracuda/BaseJSON.cs" />
+        <option value="$PROJECT_DIR$/Barracuda/Fetcher.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1ZOkwgNtGRXrXy4lh6lgT2gxU3G" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="C#" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,7 +89,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584717771077</updated>
-      <workItem from="1584717789751" duration="2838000" />
+      <workItem from="1584717789751" duration="3041000" />
+      <workItem from="1584790843279" duration="3197000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1584718082356</created>
@@ -88,20 +99,29 @@
       <option name="project" value="LOCAL" />
       <updated>1584718082356</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Cacher.cs">
+      <created>1584721223248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584721223248</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -109,32 +129,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added Cacher.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Cacher.cs" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="937" height="275" key="GridCell.Tab.0.bottom" timestamp="1584720998804">
+    <state width="937" height="275" key="GridCell.Tab.0.bottom" timestamp="1584794530817">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="937" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1043@0.0.1920.1043" timestamp="1584720998804" />
-    <state width="937" height="275" key="GridCell.Tab.0.center" timestamp="1584720998804">
+    <state width="937" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1043@0.0.1920.1043" timestamp="1584794530817" />
+    <state width="937" height="275" key="GridCell.Tab.0.center" timestamp="1584794530816">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="937" height="275" key="GridCell.Tab.0.center/0.0.1920.1043@0.0.1920.1043" timestamp="1584720998804" />
-    <state width="937" height="275" key="GridCell.Tab.0.left" timestamp="1584720998804">
+    <state width="937" height="275" key="GridCell.Tab.0.center/0.0.1920.1043@0.0.1920.1043" timestamp="1584794530816" />
+    <state width="937" height="275" key="GridCell.Tab.0.left" timestamp="1584794530816">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="937" height="275" key="GridCell.Tab.0.left/0.0.1920.1043@0.0.1920.1043" timestamp="1584720998804" />
-    <state width="937" height="275" key="GridCell.Tab.0.right" timestamp="1584720998804">
+    <state width="937" height="275" key="GridCell.Tab.0.left/0.0.1920.1043@0.0.1920.1043" timestamp="1584794530816" />
+    <state width="937" height="275" key="GridCell.Tab.0.right" timestamp="1584794530816">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="937" height="275" key="GridCell.Tab.0.right/0.0.1920.1043@0.0.1920.1043" timestamp="1584720998804" />
+    <state width="937" height="275" key="GridCell.Tab.0.right/0.0.1920.1043@0.0.1920.1043" timestamp="1584794530816" />
     <state x="456" y="157" key="SettingsEditor" timestamp="1584717914472">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
     <state x="456" y="157" key="SettingsEditor/0.0.1920.1043@0.0.1920.1043" timestamp="1584717914472" />
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1584720389439">
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1584794005694">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1043@0.0.1920.1043" timestamp="1584720389439" />
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1043@0.0.1920.1043" timestamp="1584794005694" />
   </component>
 </project>

@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 
 namespace Barracuda
 {
@@ -42,7 +41,7 @@ namespace Barracuda
 
         public double GetDist(Coord a, Coord b)
         {
-            if (!State.ContainsKey(a) || !State[a].ContainsKey(b))
+            if (!CheckPair(a, b))
             {
                 throw new NullReferenceException("Attempted to get non-calculated distance");
             }
